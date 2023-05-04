@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="My test suite" verbose="1" parallel="methods"  thread-count="10">
+    <test name="My test">
+        <classes>
+            <class name="com.testing.laba1.SysProg1TestNG" />
+        </classes>
+    </test>
+</suite>
